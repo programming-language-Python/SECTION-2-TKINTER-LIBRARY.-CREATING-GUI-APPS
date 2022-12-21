@@ -1,0 +1,16 @@
+https://pypi.org/project/PyInstaller/
+
+# сборка приложения с настройками по умолчанию
+pyinstaller notepad.py
+
+# сборка приложения в виде одного файла. При запуске ОС распаковывает пакеты, а затем запускает.
+# лучше использовать pyinstaller notepad.py быстрее запускается
+pyinstaller -F notepad.py
+
+# noconsole - не будет запускаться консоль при запуске приложения
+pyinstaller -w notepad.py
+
+# icon. -i "C:\Python\compilation\notepad\nt.ico" - устанавливает иконку
+# при повторной сборке лучше переименовать приложение, для сброса кэша.
+# Если этого не сделать то иконка не изменится
+pyinstaller -w -i "C:\Python\compilation\notepad\nt.ico" notepad.py

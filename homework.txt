@@ -1,0 +1,4 @@
+lesson5
+lesson16 - PhotoSort
+lesson19 - homework.py - цвета радуги
+lesson19 - homework2.py - перевод курса валют
